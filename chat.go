@@ -57,6 +57,6 @@
 
         http.HandleFunc("/new/user", registerNewUser)
         http.HandleFunc("/pusher/auth", pusherAuth)
-
-        log.Fatal(http.ListenAndServe(":8090", nil))
+        port := ":" + os.Getenv("PORT")
+        log.Fatal(http.ListenAndServe(port, nil))
     }
