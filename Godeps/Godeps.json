@@ -1,0 +1,32 @@
+{
+	"ImportPath": "go-amartha-chat",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/pusher/pusher-http-go",
+			"Comment": "v4.0.0-1-g12a8a45",
+			"Rev": "12a8a4597f44a0f107f0f3ae146fdcc5f65e22d7"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/internal/subtle",
+			"Rev": "cc06ce4a13d484c0101a9e92913248488a75786d"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/nacl/secretbox",
+			"Rev": "cc06ce4a13d484c0101a9e92913248488a75786d"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/poly1305",
+			"Rev": "cc06ce4a13d484c0101a9e92913248488a75786d"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/salsa20/salsa",
+			"Rev": "cc06ce4a13d484c0101a9e92913248488a75786d"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/cpu",
+			"Rev": "04f50cda93cbb67f2afa353c52f342100e80e625"
+		}
+	]
+}
