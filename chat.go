@@ -6,6 +6,7 @@
         "io/ioutil"
         "log"
         "net/http"
+        "os"
 
         pusher "github.com/pusher/pusher-http-go"
     )
